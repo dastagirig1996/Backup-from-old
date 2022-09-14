@@ -1,0 +1,53 @@
+
+dg22190@OJAS-DD169 MINGW64 ~/student_table (main)
+$ git add .
+
+dg22190@OJAS-DD169 MINGW64 ~/student_table (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   student_data.html
+
+
+dg22190@OJAS-DD169 MINGW64 ~/student_table (main)
+$ git commit -m "file adding"
+[main 70f0929] file adding
+ Committer: Dastagiri Goguvala <dg22190@corp.ojas-it.com>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 135 insertions(+)
+ create mode 100644 student_data.html
+
+dg22190@OJAS-DD169 MINGW64 ~/student_table (main)
+$ git push
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 607 bytes | 607.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/dastagirig1996/student_table.git
+   a3c39b9..70f0929  main -> main
+
+dg22190@OJAS-DD169 MINGW64 ~/student_table (main)
+$ git branch branch1
+
+dg22190@OJAS-DD169 MINGW64 ~/student_table (main)
+$ git checkout branch1
+Switched to branch 'branch1'
+
+dg22190@OJAS-DD169 MINGW64 ~/student_table (branch1)
+$ touch/d/DASTAGIRI/html/student_data.html

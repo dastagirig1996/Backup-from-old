@@ -1,0 +1,73 @@
+Basics&Introduction:
+1.what is python & how python works
+2.what are python applicatins
+3.how mamory managed in python
+4.what is token in python
+
+Identifiers:
+1.what is identifier
+2.how we can define a identifier
+
+literals:
+1.what are literals
+2.how many types of literals
+3.briefly explain all type of literals
+
+operators:
+1.what is operators
+2.Difference between operator&operends
+3.how many types of operators
+4.explain types of bitwise operator
+
+keywords:
+1.what is a keyword
+2.how many keywords we have in python lattest version
+3.what is the use of the keywords
+
+list:
+1.what is list.
+2.explain five methods in list 
+3.difference between list&tuple
+4.exmple of list
+5.convert tuple to list using example
+
+tuple:
+1.what is tuple 
+2.how many methods in tuple
+
+set:
+1.what is a set
+2.explain five methods of the set methods
+3.what is difference b/w intersection and union
+
+dictionary:
+1.what is dictionary 
+2.what are the dict methods
+3.what is items
+4.can we use len function in dictionary?
+5.which allows duplicates?
+
+Others:
+1.what you know about oops?
+2.what are the pillers of oops
+3.explain any one of pillar
+
+type convertion:
+1.what is implicit and explicit.
+2.what are the user defined data types
+
+python program flow:
+1.what is conditional statement
+2.what are the types of conditional statement
+3.difference of if if & if else
+4.what is control flow statement
+5.what are the types of control flow statements
+
+Comprehension
+1.What is comprehension
+2.what are the types of comprehension
+3.syntax of list comprehension
+4.syntax of set comprehension
+5.syntax of dict comprehension
+6.write a example of list comprehension
+7.write a example of dict comprehension

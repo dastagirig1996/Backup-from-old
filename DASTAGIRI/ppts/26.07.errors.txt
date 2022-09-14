@@ -1,0 +1,19 @@
+***Exception Handling***
+
+What is an Exception?
+1) An Exception is an error that happens during the execution of a program. Whenever there is an error, Python generates an exception that could be handled.
+  It basically prevents the program from getting crashed.
+
+Handling Exceptions in Python :
+
+With a thorough understanding of the different runtime errors that might cause our programs to behave abnormally, we are now good to go on how to tackle such problems.
+ In Python,we handle exceptions by implementing a try and except block 
+ 
+
+In python we have two types of terminations
+Normal Termination:
+   if all lines are executed, then it is NORMAL termination
+
+Abnormal Termination:
+   if all lines are not executed successfully
+   Due to runtime error

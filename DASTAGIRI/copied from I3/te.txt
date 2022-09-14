@@ -1,0 +1,171 @@
+Python Programs 
+
+1. Write a program to swap given two numbers without temporary variable. 
+
+  2. Write a program to accept 4 numbers from command prompt add them using two variables.  
+
+  3. Write a program which accepts an int values as command line argument and    print the next multiple of 100. 
+
+    Ex: Input: 35 
+
+    Output: 100 
+
+    Input: 435 
+
+    Output: 500 
+
+ 4. Write a program ThreeDPalindrome 
+
+    In this program accept a 3 digit integer as a command line argument and return the String true      if the integer is a Palindrome or the String false otherwise 
+
+5. Write a python program for printing Fibonacci series. 
+
+ 
+
+6. Python Program to Find Armstrong Number in an Interval  
+
+ 
+
+7. Write a python  program on SumOfDigits, which accepts a two digit number as command line argument and prints the sum of its digits.  
+
+Ex: Input: 35  
+
+Output: 8  
+
+Input: 88  
+
+Output: 16  
+
+  
+
+Note: Do not use Conditional or Looping statements while solving the problem.  
+
+ 
+
+8. Write a python program EvenOrOdd, which accepts a whole number as command line argument and prints “Even Number” if the number is Even and prints “Odd Number” if the number is Odd. If the input is not a number, print “Error”.  
+
+ 
+
+9. Write a python program Rounder, which accepts a whole number as command line argument and prints the same number if the input is Odd. If the input is even, it should print the next multiple of ten. If the input is not a number or is negative, print the string:“Error”.  
+
+Input: 44, output: 50  
+
+Input: 45, output: 45 
+
+ 
+
+ 
+
+10. Write a python program DigitChecker, which accepts a two digit number as command line argument and prints Zero if the digits are same and if the two digits are different, it prints their difference.  
+
+Ex: Input: 52  
+
+Output: 3  
+
+Input: 88  
+
+Output: 0  
+
+  
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+11. Write a python  program Box, which accepts 2 numbers as command line argument and prints the following output:  
+
+Input: 4 5  
+
+Output:  
+
+ *  *  *  *  *  
+
+ *              *  
+
+ *              *  
+
+ *  *  *  *  *  
+
+NOTE: Output stars must also be separated by a single space. The first argument is the number of rows and the second argument is the number of columns. Negative numbers or 0 should print “Error” and come out. Numbers up to 30 must be handled.  
+
+ 
+
+ 
+
+12.  Write a python program StarPattern, which accepts a number as command line argument and prints the following output:  
+
+Input: 4  
+
+Output:  
+
+*   
+
+*  *   
+
+*  *  *   
+
+*  *  *  *  
+
+NOTE: Output stars must also be separated by a single space. The number of lines must equal the number passed as argument. Negative numbers or zero should print “Error” and exit. Numbers up to 10 must be handled.  
+
+ 
+
+ 
+
+13. Write a python program NumberPattern4, which accepts a number as command line argument and prints the following output:  
+
+Input: 5  
+
+Output:  
+
+1  
+
+2 4  
+
+3 6 9  
+
+4 8 12 16  
+
+5 10 15 20 25  
+
+  
+
+NOTE: Output numbers must be separated by a single space. The number of lines must equal the number passed as argument. Negative numbers or zero as input should print “Error” and exit. Numbers up to 10 must be handled.  
+
+ 
+
+14. Write a python  program on Prime numbers 
+
+ 
+
+15. Write a python  program on LeastNumber, which accepts two numbers as command line arguments and prints the least number of the two. If the input is not a number, print “Error”.  
+
+ 
+
+16. write a python program on finding a Strong number. 
+
+ 
+
+ 
+
+17. Python Program to Convert Kilometres to Miles 
+
+18. .Problem Statement: Little Robert likes mathematics. Today his teacher has given him two integers and asked to find out how many integers can divide both the numbers. Would you like to help him in completing his school assignment? 
+
+Input Formatting: Thre is two integers, a and b as input to the program. 
+
+Output Formatting: Print the number of common factors of a and b. Both the input value should be in a range of 1 to 10^12. 
+
+Example: 
+
+Input: 10 15 
+
+Output: 2 
+
+Explanation: The common factors of 10 and 15 are 1 and 5. So the answer will be 2. 

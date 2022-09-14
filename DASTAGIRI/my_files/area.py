@@ -1,0 +1,11 @@
+r=int(input('Enter r value....'))
+pi=3.14
+side=int(input('Enter the Side.....'))
+l=int(input('length of side....'))
+b=int(input('breadth of size...'))   
+print('Area of Curcle',pi*(r**2))
+print('Perimeter of Curcle',2*pi*r)
+print('Area of Square',((side**2)))
+print('Perimeter of Square',4*side)
+print('area of Rectangle',l*b)
+print('perimeter of Rectangle',2*(l+b))

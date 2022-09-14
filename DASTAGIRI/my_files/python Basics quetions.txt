@@ -1,0 +1,144 @@
+What is Python? 
+  * Python is an interpreted, object-oriented, high-level programming language with dynamic semantics.
+                   # Dynamic semantics: dynamics objects are instances of values contained into constructs in the code, and they exist at run-time level.
+  * Its high-level built in data structures, combined with dynamic typing and dynamic binding, make it very attractive for Rapid Application Development,
+   as well as for use as a scripting or glue language to connect existing components together.
+                    # Dynamic typing means that the type of the variable is determined only during runtime.
+                   # Dynamic binding defers the determination of the actual method to invoke on an object until program execution time.
+  * Python's simple, easy to learn syntax emphasizes readability and therefore reduces the cost of program maintenance.
+  * Python supports modules and packages, which encourages program modularity and code reuse.
+  * The Python interpreter and the extensive standard library are available in source or binary form without charge for all major platforms, and can be freely distributed. 
+
+
+Difference Between Compiler & Interpreter
+   S.No.	                                        Compiler	                                                                                                                                  Interpreter
+     1.	The compiler scans the whole program in one go.	                                                 Translates the program one statement at a time.
+
+     2.	As it scans the code in one go, 
+                     the errors (if any) are shown at the end together.	                                                 Considering it scans code one line at a time, errors are shown line by line.
+
+     3.	The main advantage of compilers is its execution time.	                           Due to interpreters being slow in executing the object code, it is preferred less.
+     4.	It converts the source code into object code.	                                                 It does not convert source code into object code instead it scans it line by line
+     5.	It does not require source code for later execution.	                                                 It requires source code for later execution.
+     6.	Execution of the program takes place only after 
+                     the whole program is compiled.	                                                                      Execution of the program happens after every line is checked or evaluated.
+    7.	The machine code is stored in the disk storage.	                                                 Machine code is nowhere stored.
+    8.	Compilers more often take a large amount of time
+                      for analyzing the source code.	                                                                                           In comparison, Interpreters take less time for analyzing the source code.
+    9.	It is more efficient.	                                                                                                                It is less efficient.
+    10.	CPU utilization is more.                                      	                                                                     CPU utilization is less.
+    Eg.	C, C++, C#, etc are programming languages that are compiler-based.               Python, Ruby, Perl, SNOBOL, MATLAB, etc are programming languages that are interpreter-based.
+
+How Python is interpreted?
+   * An interpreter is a kind of program that executes other programs. When you write Python programs , it converts source code written by the developer into intermediate language
+       which is again translated into the native language / machine language that is executed.
+   * The python code you write is compiled into python bytecode, which creates file with extension .pyc . The bytecode compilation happened internally,
+        and almost completely hidden from developer. Compilation is simply a translation step, and byte code is a lower-level, and platform-independent , representation of your source code.
+        Roughly, each of your source statements is translated into a group of byte code instructions. 
+       This byte code translation is performed to speed execution byte code can be run much quicker than the original source code statements.
+   * The .pyc file , created in compilation step, is then executed by appropriate virtual machines.
+       The Virtual Machine just a big loop that iterates through your byte code instructions, one by one, to carry out their operations.
+       The Virtual Machine is the runtime engine of Python and it is always present as part of the Python system, and is the component that truly runs the Python scripts .
+       Technically, it's just the last step of what is called the Python interpreter.
+
+Difference between Dynamically and Statically typed language
+     Attribute                	                                                                                    Dynamically Typed language	                                                                                       Statically Typed language
+     About	                                                           If the type of the variable is checked at the runtime of the code than 
+                                                                                 the language is called a dynamically typed language.	                                                If the type of the variable is checked at the compile-time of the code than
+                                                                                                                                                                                                                                                 the language is called a statically typed language.
+     Code Compilation/Interpretation           Code will get interpreted/compiled even if it contain error.	                           Code will not be compiled/interpreted until all the errors are corrected.
+     Variable deceleration	                Variable without its type is initialized.   	                                                                      Variable with its type is initialized.
+     Languages	                                      Python, PHP, Java-Scripy, etc.                                                                                                   Java, C, C++, etc.
+
+How memory managed in python
+  * Memory management in Python involves a private heap containing all Python objects and data structures. The management of this private heap is ensured internally by
+      the Python memory manager. The Python memory manager has different components which deal with various dynamic storage management aspects,
+      like sharing, segmentation, preallocation or caching.
+
+Features in Python
+      There are many features in Python, some of which are discussed below as follows:
+
+      1. Easy to code: Python is a high-level programming language. Python is very easy to learn the language as compared to other languages like C, C#, Javascript, Java, etc. 
+          It is very easy to code in python language and anybody can learn python basics in a few hours or days. It is also a developer-friendly language. 
+
+      2. Free and Open Source: Python language is freely available at the official website and you can download it from the given download link below click on the Download Python keyword.
+           Download Python Since it is open-source, this means that source code is also available to the public. So you can download it as, use it as well as share it. 
+
+     3. Object-Oriented Language: One of the key features of python is Object-Oriented programming. Python supports object-oriented language and concepts of classes, objects encapsulation, etc. 
+
+     4. GUI Programming Support: Graphical User interfaces can be made using a module such as PyQt5, PyQt4, wxPython, or Tk in python. PyQt5 is the most popular option for creating graphical apps with Python.
+
+    5. High-Level Language: Python is a high-level language. When we write programs in python, we do not need to remember the system architecture, nor do we need to manage the memory.
+ 
+    6. Extensible feature: Python is a Extensible language. We can write some Python code into C or C++ language and also we can compile that code in C/C++ language.
+
+     7. Python is Portable language: Python language is also a portable language. For example, if we have python code for windows and if we want to run this code on other platforms such as 
+          Linux, Unix, and Mac then we do not need to change it, we can run this code on any platform.
+ 
+    8. Python is Integrated language: Python is also an Integrated language because we can easily integrated python with other languages like c, c++, etc. 
+
+    9. Interpreted Language: Python is an Interpreted Language because Python code is executed line by line at a time. like other languages C, C++, Java, etc. 
+         there is no need to compile python code this makes it easier to debug our code. The source code of python is converted into an immediate form called bytecode.
+
+    10. Large Standard Library Python has a large standard library that provides a rich set of modules and functions so you do not have to write your own code for every single thing.
+          There are many libraries present in python for such as regular expressions, unit-testing, web browsers, etc.
+
+    11. Dynamically Typed Language: Python is a dynamically-typed language. 
+          That means the type (for example- int, double, long, etc.) for a variable is decided at run time not in advance because of this feature we don’t need to specify the type of variable.
+
+    12. Frontend and backend development: With a new project pyscript you can run and write python codes in html with the help of some simple tags <py-script>, <py-env>, etc.
+          This will help you do frontend development work in python like javascript. Backend is the strong forte of python it’s extensively used for this work cause of its framework like django and flask.
+
+
+Advantages of python:
+     * Easy-to-learn and Easy-to-use
+     * Improves Productivity
+     * Interpreted Language
+     * Open-source
+     * Easily Portable
+     * Massive Libraries
+     * Easy-to-integrate with Other Programming Languages
+
+Disadvantages of Python:
+     * Low Speed
+     * Inefficient Memory Consumption
+     * Weak in Programming for Mobile Devices
+     * Difficult-to-interact Database Layer
+     * Prone to Cause Runtime Errors
+ 
+who uses python
+     * Python is used by Intel, IBM, NASA, Pixar, Netflix, Facebook, JP Morgan Chase, Spotify, and a number of other massive companies.
+
+How python different from other languages
+     * Point of Difference                                                	 Python	                                                                                                   Java
+        Program run time	                  Python program runs slower than Java	                        Java program runs faster than python
+        Program development time                 Takes less time than Java	                                             Takes more time for developing the same program
+        Length of the code	                  Python code is 3-5 times shorter than Java code                Java code is longer than Python
+        Type                                                                Python is dynamically typed	                                              Java is not dynamically typed
+
+   *  Point of Difference                                               	Python	                                                                                             JavaScript
+       Object-based                                               A python is an object-based programming language       JavaScript is also an object-based scripting language
+       Type 	                                                            Python can be used as a scripting language
+                                                                                  as well as a programming language                                         JavaScript is only used for the scripting language 
+   * Point of Difference	                                          Python	                                                                                                    C++
+      Length of code	                                       Python code is 5-10 time shorter than C++ code	  C++ code is 5-10 times longer than Python code
+      OOPS                                                                Python is pure OOPS programming language      	  C++ is not a pure OOPS programming language 
+
+What is python Script ?
+     * A python program can be executed in two ways:
+
+        1). Through the Python terminal (called interactive mode).
+
+       2). Through scripting.
+  
+      The first method is highly impractical for larger and more complicated programs.
+
+      Therefore, for larger programs we use method 2 called scripting. In this method, we write the Python program in Notepad and then save the program with a .py extension.
+      When we have to run the program, we type the name of the program in command prompt in the following fashion:
+ 
+ 
+
+
+
+
+
